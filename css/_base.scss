@@ -1,0 +1,21 @@
+// UTILITIES
+img {
+	max-width: 100%;
+}
+
+.imgs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.imgs-item {
+	width: 20%;
+}
+.lazyload.active {
+	animation-name: fadeIn;
+	animation-duration: 0.3s;
+}
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
